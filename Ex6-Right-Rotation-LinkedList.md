@@ -1,3 +1,27 @@
+# Ex6 Right Rotation LinkedList
+## DATE: 16-11-2025
+## AIM:
+To write a Java  program to:
+
+1. Create a singly linked list.
+2. Rotate the linked list to the right by k positions.
+3. Display the rotated linked list.
+   
+## Algorithm
+1. Start the program.
+2. Create a Node class with two fields: data (to store the element), next (to store the reference to the next node).
+3. Create a LinkedListRotation class to manage the list.
+4. Insert elements into the linked list.
+5. Read the value of k (number of rotations).
+6. To rotate the list right by k positions:
+     1. Find the length of the list.
+     2. Connect the last node to the head (making it circular).
+     3. Find the new head after (length - k % length) nodes.
+     4. Break the link after the new tail node.
+7. Display the final rotated linked list and end the program.
+
+## Program:
+```java
 /*
 Program to  Right Rotation LinkedList
 Developed by: DEVESH S
@@ -68,3 +92,13 @@ class Node {
         this.next = null;
     }
 }
+
+```
+
+## Output:
+<img width="779" height="135" alt="image" src="https://github.com/user-attachments/assets/1462a042-975d-4a0a-8fad-a81659d0443c" />
+
+
+
+## Result:
+Thus, the Java program to perfom right rotation on linked list is implemented successfully.
